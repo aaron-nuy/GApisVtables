@@ -174,7 +174,7 @@ namespace apihooks {
 				}
 			}
 
-			memcpy(deviceVMT.data(), *(void***)pDummyDevice, deviceVMT.size()*sizeof(void*));
+			memcpy(deviceVMT.data(), *(void*)pDummyDevice, deviceVMT.size()*sizeof(void*));
 
 			pD3D->Release();
 			pDummyDevice->Release();
