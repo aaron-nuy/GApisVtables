@@ -190,7 +190,7 @@ namespace apihooks {
 		return hWnd;
 	}
 
-	namespace d3d9 {
+	namespace d3d12 {
 		static constexpr uint16_t nvDeviceFuns = 44;
 		static std::array<void*, nvDeviceFuns> deviceVMT = { 0 };
 		static constexpr uint16_t nvCommandQueueFuns = 19;
