@@ -188,7 +188,7 @@ namespace apihooks {
 		EnumWindows(EnumWindowsCallback, 0);
 
 		return hWnd;
-	}
+	} 
 
 	namespace d3d12 {
 		static constexpr uint16_t nvDeviceFuns = 44;
