@@ -23,4 +23,4 @@ Support for D3D APIs from 9 to 12.
 
 
 # Issues 
-If the functions offsets are wrong post an issue or contact me or fix it yourself you coward
+If the functions offsets are wrong post an issue or contact me or fix it yourself 
